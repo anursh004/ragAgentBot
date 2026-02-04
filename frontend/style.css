@@ -1,0 +1,75 @@
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: #f6f7fb;
+  margin: 0;
+  color: #1c1f2b;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+.panel {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 30px rgba(28, 31, 43, 0.08);
+}
+
+form {
+  display: grid;
+  gap: 12px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  border-radius: 8px;
+  border: 1px solid #d4d7e1;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #4a6cf7;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+li {
+  background: #f2f3f8;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+pre {
+  background: #0b1020;
+  color: #d7e4ff;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
