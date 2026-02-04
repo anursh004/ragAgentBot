@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Collaborative Agents Console</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Collaborative Agents Console</h1>
+        <p>Live streaming of agent calls, execution steps, and final output.</p>
+      </header>
+      <section class="panel">
+        <h2>Submit Ticket</h2>
+        <form id="ticket-form">
+          <label>
+            Ticket ID
+            <input type="text" name="ticketId" value="TICKET-001" required />
+          </label>
+          <label>
+            Message
+            <textarea name="ticketText" rows="4" required>Payment service failing intermittently for EU users</textarea>
+          </label>
+          <button type="submit">Run Agents</button>
+        </form>
+      </section>
+      <section class="panel">
+        <h2>Agent Events</h2>
+        <ul id="event-stream"></ul>
+      </section>
+      <section class="panel">
+        <h2>Final Response</h2>
+        <pre id="final-response">No response yet.</pre>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
